@@ -28,24 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.Prueba = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // Prueba
             // 
-            this.button1.Location = new System.Drawing.Point(191, 389);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Prueba.Location = new System.Drawing.Point(12, 26);
+            this.Prueba.Name = "Prueba";
+            this.Prueba.Size = new System.Drawing.Size(75, 23);
+            this.Prueba.TabIndex = 0;
+            this.Prueba.Text = "Prueba";
+            this.Prueba.UseVisualStyleBackColor = true;
+            this.Prueba.Click += new System.EventHandler(this.Prueba_Click);
             // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 591);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Prueba);
             this.Name = "login";
             this.Text = "login";
             this.ResumeLayout(false);
@@ -54,7 +55,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Prueba;
     }
 }
 

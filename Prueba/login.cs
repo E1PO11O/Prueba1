@@ -16,5 +16,10 @@ namespace Prueba
         {
             InitializeComponent();
         }
+
+        private void Prueba_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
