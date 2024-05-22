@@ -33,7 +33,7 @@
             // 
             // Prueba
             // 
-            this.Prueba.Location = new System.Drawing.Point(12, 26);
+            this.Prueba.Location = new System.Drawing.Point(392, 523);
             this.Prueba.Name = "Prueba";
             this.Prueba.Size = new System.Drawing.Size(75, 23);
             this.Prueba.TabIndex = 0;
